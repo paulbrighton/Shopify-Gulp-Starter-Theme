@@ -1,0 +1,87 @@
+$header-font-family: $header-font-family !default;
+$header-font-weight: $header-weight-normal !default;
+$header-font-style: normal !default;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
+$font-family-serif: "serif" !default;
+$header-color: $brand !default;
+$header-lineheight: 1.2 !default;
+$header-margin-bottom: 1.875rem !default;
+$small-font-size: 80% !default;
+
+$header-small-font-color: #333333 !default;
+$paragraph-lineheight: 1.5 !default;
+$paragraph-margin-bottom: 1rem !default;
+
+$header-styles: (
+  xsmall: (
+    "h1": (
+      "font-size": 40,
+    ),
+    "h2": (
+      "font-size": 32,
+    ),
+    "h3": (
+      "font-size": 24,
+    ),
+    "h4": (
+      "font-size": 22,
+    ),
+    "h5": (
+      "font-size": 20,
+    ),
+    "h6": (
+      "font-size": 16,
+    ),
+  ),
+  small: (
+    "h1": (
+      "font-size": 40,
+    ),
+    "h2": (
+      "font-size": 35,
+    ),
+    "h3": (
+      "font-size": 28,
+    ),
+    "h4": (
+      "font-size": 25,
+    ),
+    "h5": (
+      "font-size": 20,
+    ),
+    "h6": (
+      "font-size": 18,
+    ),
+  ),
+  large: (
+    "h1": (
+      "font-size": 44,
+    ),
+    "h2": (
+      "font-size": 40,
+    ),
+    "h3": (
+      "font-size": 32,
+    ),
+    "h4": (
+      "font-size": 23,
+    ),
+    "h5": (
+      "font-size": 20,
+    ),
+    "h6": (
+      "font-size": 18,
+    ),
+  ),
+) !default;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+@mixin font-body() {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+}
+
+@mixin font-bold() {
+  font-family: "Montserrat SemiBold", sans-serif;
+  font-weight: 500 !important;
+}

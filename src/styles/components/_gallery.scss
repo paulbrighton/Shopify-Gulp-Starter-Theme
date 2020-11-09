@@ -1,0 +1,56 @@
+.c-gallery {
+  &__row {
+    justify-content: space-around;
+  }
+  &__img {
+    margin-bottom: 20px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.c-collection__card {
+  // border: 1px solid $brand-lighter;
+  padding: 25px 20px 0 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  &-img {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex: 1 1 auto;
+    // a {
+    //   margin: 0 auto;
+    // }
+  }
+
+  .flex-stretch {
+    flex: 1 1 auto;
+    margin-top: 35px;
+  }
+  h2 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    flex: 1 1 auto;
+  }
+  p {
+    // @include font-bold;
+  }
+}
+
+.c-header {
+  padding: 20px 10px;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+
+  &__login {
+    text-align: right;
+  }
+}

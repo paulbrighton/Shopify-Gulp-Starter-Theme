@@ -1,0 +1,33 @@
+/* Settings */
+@import "./settings/global";
+@import "./settings/colours";
+@import "./settings/break-points";
+@import "./settings/typography";
+
+/* Tools */
+@import "./tools/units";
+@import "./tools/breakpoint";
+
+/* Generic */
+@import "./generic/normalize";
+@import "./generic/box-sizing";
+
+/* Elements */
+@import "./elements/general";
+@import "./elements/typography";
+@import "./elements/print";
+
+/* Objects */
+@import "./objects/grid";
+
+/* Utilities */
+@import "./utils/helpers";
+@import "./utils/flex";
+@import "./utils/margins";
+
+/* Node Imports */
+@import "node_modules/slick-carousel/slick/slick.scss";
+
+// Components
+@import './components/nav';
+@import './components/gallery';
